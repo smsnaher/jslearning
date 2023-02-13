@@ -7,6 +7,16 @@
     <title>Js Learning</title>
 </head>
 <body>
-    <h1>JS Learning</h1>
+    <h1 id="show">JS Learning</h1>
+    <button onclick="document.getElementById('show').innerHTML='hello world!'">wellcome</button>
+    <button onclick="document.getElementById('show').style.color='#f00'">color</button>
+    <button onclick="document.getElementById('show').style.fontSize='50px'">font</button>
+    <br><br><br><br>
+
+    <img id="img" src="img/red-rose.jpeg" alt=""  width="200px" height="200px"/>
+    <button onclick="document.getElementById('img').src='img/red-rose.jpeg'">red</button>
+    <button onclick="document.getElementById('img').src='img/blue-rose.jpeg'">blue</button>
+    <button onclick="document.getElementById('img').src='img/black-rose.jpeg'">black</button>
+
 </body>
 </html>
